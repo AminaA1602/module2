@@ -11,7 +11,8 @@ Created on Wed Nov 28 2018
     D = 2**3
     E = 4**(1/2)
     F = str(6) + 'a'
-    print (A)
+    print (A) clear
+    
     print (B)
     
- 
+    
