@@ -62,13 +62,14 @@ Created on Tue Dec  4 09:23:10 2018
 #else:
 #    print("dont't know!")    
 
-y =input(age)
-    
-age = raw_input("How old are you? ")
-height = raw_input("How tall are you? ")
-weight = raw_input("How much do you weigh? ")
+
+age = " "
+y=input(age)   
+age = input("How old are you? ")
+height = input("How tall are you? ")
+weight = input("How much do you weigh? ")
 
     
-    print ("So, you\'re {} old," "{} tall","and weigh {} pounds/kg"
+print ("So, you\'re" +str(age)+ "old," "{} tall  ","and weigh {} pounds/kg"
            .format(age, height, weight))
    
