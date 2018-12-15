@@ -1,0 +1,16 @@
+				How to use If and else statements
+
+name = "Amina" 
+height_m = 163
+weight_kg = 65
+
+bmi = weight_kg / (height_m **2)
+	print(" bmi: ")
+	print(bmi)"
+if bmi <25:
+	print(name)
+	print("is not overweight")
+else: 
+	print(name)
+	print("is overweight")
+

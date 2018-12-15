@@ -1,0 +1,26 @@
+			Python for beginners ch1 - What are variables? 
+
+- A variable contains a value and acts likes a name tag. e.g. a = 1 ---> the value 1 has been assigned to a 
+a refers to the value 1 
+
+- A variable can refer to a string as well. 
+
+- You can have more than one variable assigned to one value 
+- You can also reassign a variable 
+- You can assign a variable to another one 
+
+			Example code/exercise - Swapping strings 
+This explains how you can reassign variables which is useful because you can reuse them without having to rewrite long strings and values in a code. In order to be able to reuse the following variables, I'm going to assign another variable called 'temp'. 
+
+v1 = 'first string'
+v2 = 'second string' 
+temp = v1
+v1 = v2
+v2 = temp
+
+v1 now = second string 
+v2 now = first string which is the same as temp 
+
+print(v1) ---> second string 
+print(v2) ---> first string 
+

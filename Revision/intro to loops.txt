@@ -1,0 +1,15 @@
+Intro for loops 
+
+for element in a: 
+	print (element) - What this is saying is, in this for block, print all the elements in it (a) 
+
+b = [20, 10, 5]
+total =  0
+for element in b: 
+	#print (element) - btw you can rename this. 
+	total = total + e 
+	print(total)
+if you want to find the sum of this list : 
+
+initialise a new variable called (total)
+

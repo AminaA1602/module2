@@ -1,0 +1,43 @@
+Lists in Python 
+
+how to define a list: 
+
+a = [3, 10, -1] - This means define a new list with the elements in [] and assign this list to a 
+
+if you wnated to add an item to the list you need to do: 
+
+a.append [1] - this means append the item [1] to the list (a) 
+
+* You can have different data types in a list e.g a string, integer
+
+* You can also add a list within another list e.g: 
+
+a.append([1,2]) - This means you are adding the list with the elements [1,2] to the variable (a)
+
+- If you want to delete the last item in a list you need to do: 
+a.pop() 
+
+If you want to retrieve a specific item from a specific list you need to do: 
+
+a [0] - Here I'm basically saying go to list a and look in the first index (column) and retrieve the item that's there. NOTE: 0 is 1 in Python! 
+
+ 
+*If you want to change an item in a list you need to: 
+
+call it e.g  a[0] = 100 
+print(a)
+
+b = ["banana", "apple", "microsoft"]
+
+Define a new varable called temp 
+temp = b[0]
+b[0] = b[2]
+b[2] = temp 
+
+soooooo: 
+
+b[0], b[2], b[0] 
+print(b)
+
+
+

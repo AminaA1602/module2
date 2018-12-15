@@ -1,0 +1,46 @@
+					Functions 
+1. can be used as a collection of instructions 
+
+2. can be used for mapping 
+e.g. def function2 (x)
+	return 2*x
+
+- we are mapping the input (x) to the output (2*x) 
+-  if you wnat to execute this function you need to call it. 
+
+	e.g  a = funtion2(3) 
+- when you run this, function2 is called which refers to (x). In this case the parameter (x) is 3 and you're output (return) is 2*x aka 2*3 which = 6 
+
+- The variable a is therefore a return value or output. 
+
+name1 = "Amina" 
+height_m1 = 2 
+weight_kg1 = 90 
+
+name2 = "Ayda"  
+height_m2 = 1.8 
+weight_kg2 = 70 
+
+name3 = "Saddeeq" 
+height_m3 = 2.5
+weight_kg3 = 160    
+
+def bmi_calculator(name, height_m, weight_kg):
+bmi = weight_kg/(height_m**2)
+print("bmi: ")
+print(bmi)
+if bmi <25:
+return name + " is not overweight" 
+else: 
+return name + " is overweight" 
+
+resutl1 = bmi_calculator(name1, height_m1,weight_kg1)
+resutl2 = bmi_calculator(name2, height_m2,weight_kg2)
+resutl2 = bmi_calculator(name3, height_m3,weight_kg3)
+
+print(result1)    
+print(result2)  
+print(result3)               
+
+km = convert(miles)
+#km = 1.6* miles                                              
