@@ -82,19 +82,23 @@ Created on Fri Dec 14 10:18:06 2018
 #pupil = list(students.keys())
 
 ############## metals exercise ####################
-metals = {}
-metals = {'zinc':[7.13, 24, 2.6], 
-          'iron':[7.8,64,3.8], 
-          'gold':[19.3,54,5.2], 
-          'lead':[11.4,74,8.5]}
-sortedMetals=list(metals.keys())
-sortedMetals.sort(reverse=True,key=lambda m:metals[m][1])
-print(sortedMetals)
+#metals = {}
+#metals = {'zinc':[7.13, 24, 2.6], 
+#          'iron':[7.8,64,3.8], 
+#          'gold':[19.3,54,5.2], 
+#          'lead':[11.4,74,8.5]}
 
-Shareprice=list(metals.keys())
-Shareprice.sort(key=lambda m:metals[m][1])
-print(Shareprice)
+#sortedMetals=list(metals.keys())
+#sortedMetals.sort(reverse=True,key=lambda m:metals[m][1])
+#print(sortedMetals)
+#
+#Shareprice=list(metals.keys())
+#Shareprice.sort(key=lambda m:metals[m][1])
+#print(Shareprice)
+#
+#Density=list(metals.keys())
+#Density.sort(key=lambda m:metals[m][0])
+#print(Density)
 
-Density=list(metals.keys())
-Density.sort(key=lambda m:metals[m][0])
-print(Density)
+
+
