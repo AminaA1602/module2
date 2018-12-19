@@ -14,24 +14,25 @@ from random import randint
 #   number = randint(0,end_range) 
 #The lucky number is between 0- 20
 
-def user_guess(attempts,end_range):
-    number = randint(1,end_range)
+def user_game(attempts,end_range): 
+    number = randint(1,end_range) #---> Your lucky number is 20. This bit means that the lucky number is between 1 and 20.  
     print("Welcome! Can you guess my secret number? ")
-   
-    LuckyNumber = 20 
-    user = int(input('Enter your number here: '))
-    if user_guess > LuckyNumber:
-        print(int('you entered {} which is too low. You have {} attempts left.format(user_guess, attempts'))
-    elif user_guess > number:
-           print('you guessed {}. Here\'s a hint - it was too high! You have {} attempts left.format(user_guess, attempts')
-      
-    elif user_guess == number:
-           print(int('You entered {} which is the right number. YOU WIN!'))
-           attempts-=1 
-          
-#When the user types in the number, they'll have one less attempt so this updates that and will keep doing so until all 5 attempts have run out. 
+    print("You only have 5 attempts so choose wisely!" ) #--> This section is the user input 
     
-user_guess(1,20)  
+    while attempts > 0 :
+       number = int(input("Enter your number here: "))
+    
+    LuckyNumber = 20 
+    if user_game > LuckyNumber: #---> condition
+        print(int('you entered {} which is too low. You have {} attempts left.format(user_guess, attempts'))
+    elif user_game > number:
+           print('you guessed {}. Here\'s a hint - it was too high! You have {} attempts left.format(user_guess, attempts') #--> This is why you used the while loop
+      
+    elif user_game == number:
+           print(int('You entered {} which is the right number. YOU WIN!'))
+           attempts-=1 #---> When the user types in the number, they'll have one less attempt so this updates that and will keep doing so until all 5 attempts have run out. 
+    
+user_game(1,20)  
     
     
     

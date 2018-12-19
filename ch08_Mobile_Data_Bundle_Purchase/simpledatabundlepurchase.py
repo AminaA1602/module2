@@ -63,11 +63,3 @@ def checkPhoneNumber():
         checkPhoneNumber()
 #recursion-calling the function within itself e.g. here we are calling the function checkPhoneNumber(): again if the user eneters the password incorrectly so it can go back to the question again. 
 
-def purchaseData(balance):
-       #ask the user how much they want 
-       #check their balance 
-       #compare the amount 
-       #
-       
-        
-    

@@ -26,6 +26,6 @@ y[-2] ='ed'
 #:s[] represents the items inside the tupole. If there are more than one [] then it means the first item is the list and the rest is referring to the items in that first list. is the argument you're giving to tell the compound what to sort out. 
 
 
-#x = [1,2,3,4]
-#y = [3,4,10,3,]
-#z = [20,10,30,40] 
+x = [1,2,3,4]
+y = [3,4,10,3,]
+z = [20,10,30,40] 
