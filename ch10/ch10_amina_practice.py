@@ -17,6 +17,16 @@ def addClassmate(phoneBook):
     phoneBook[name.title()] = LastthreeDigits, luckyNumber, postcode, city, age
     return phoneBook
 
+if count < max_people:
+       while no_yes == "y" :
+           count+=1
+           print(count)
+           generate_personal_information(count)
+
+    return phonebook_dict
+    return  True
+
+
 def sortbyName(phoneBook):
     sortedbyname = sorted(phoneBook.items(), key=lambda kv:kv[0])
     print('\n', sortedbyname)
@@ -32,8 +42,6 @@ def sortbyluckyNumber(phoneBook):
 def sortbyCity(phoneBook):
     sortedbycity = sorted(phoneBook.items(), key=lambda kv:kv[1][3])
     print('\n', sortedbycity)
-
-
 
 def phoneBook_run(phoneBook):
     phoneBook = addClassmate(phoneBook)
