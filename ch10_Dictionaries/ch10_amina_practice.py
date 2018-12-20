@@ -4,7 +4,7 @@ Created on Mon Dec 17 10:12:54 2018
 
 @author: Skitt
 """
-
+#----------------- Sorting a dictionary ------------------#
 
 def addClassmate(phoneBook):
     name = input('what\'s your name? ')

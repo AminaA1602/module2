@@ -51,7 +51,7 @@ print(Amina.withdraw(100.0))
     
 print(Amina.balance)
 
-#----------------- Animal Exercise -----------------# 
+#----------------- Inheritence: Animal Exercise -----------------# 
 
 class Animal():
         def eat(self):

@@ -4,9 +4,6 @@ Created on Mon Dec  3 09:48:24 2018
 
 @author: Skitt
 """
-
-########### Chapter 3 - Funtions & Importing Modules #############
-
 #----------------- Input from a user -----------------# 
 
 print("What is your name?")

@@ -16,31 +16,15 @@ def triangular(n):
  
 
 #----- while loop with an if/else statement - School test -------# 
-  
 
-mark = 1 #-- you iniitalise this so the computer knows what mark is. Kind of like assigning a variable#
+mark = int(input('What is your score? ')) 
 
-
-while mark > 0:
-    mark = int(input('Enter mark: '))
-    mark =int(mark)
-    print("Mark is", mark, end='')
-    
-    if mark >= 70:
-        print("-first class!")
-    elif mark >= 40:
-        print("-that\'s a pass")
-    else:print("-that\'s a fail")
-       
-
-#-------Another exmaple of while loop with if/else statement------# 
+mark = 1 #---> you iniitalise this so the computer knows what mark is. Kind of like assigning a variable#
 
 didYouPass = 'Yes'
 
 while didYouPass == 'Yes':
 
-   mark = int(input('What is your score? '))
-   
    if mark >= 70 and mark <=90:
        print('FIRST CLASS')
 

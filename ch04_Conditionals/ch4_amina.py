@@ -44,6 +44,24 @@ print(round(processTime,2))
 print('program running time:', round(processTime,2),'second') 
 
 
+#----------------- Conditional statements -----------------# 
+        
+number = input("Enter a nmber between 1 and 10: ")
+#number = int(number) #converts input from string
+
+
+if number > 10:
+    print ("Too high!")
+    
+if number <= 0:
+        print ("Too low!")
+
+else:
+    print("dont't know!")    
+
+#--> You would normally use elif statements because you can't use any conditional statement after else. 
+
+
 #----------------- Using elif statements -----------------# 
 
 def checkTeen(age):
@@ -64,22 +82,6 @@ for age in age_list:
         print("Adult")
     else:
         print("Pensioner")
-
-#----------------- Conditional statements -----------------# 
-        
-number = input("Enter a nmber between 1 and 10: ")
-#number = int(number) #converts input from string
-
-
-if number > 10:
-    print ("Too high!")
-    
-if number <= 0:
-        print ("Too low!")
-
-else:
-    print("dont't know!")    
-
 
 
    

@@ -5,8 +5,6 @@ Created on Mon Dec  3 16:08:30 2018
 @author: Skitt
 """
 
-#----------------- Task 3  -----------------# 
-
 def add_two_numbers_from_args(a, b):
     a = 1 
     b = 2 
@@ -15,6 +13,7 @@ def add_two_numbers_from_args(a, b):
     return ("{} plus {} is {}".format(a, b, answer))
     add_two_numbers_from_args(a, b)
 
+#----------------- Task 4  -----------------# 
 
 def converting_distance(miles): 
     kilometers = (miles * 8.0) / 5.0
@@ -23,7 +22,7 @@ def converting_distance(miles):
     return convertdist
 
 
-#----------------- Task 4  -----------------# 
+#----------------- Task 5  -----------------# 
 
 def temperature_conversion(centigrade):
     fahrenheit = centigrade * 9.0 / 5.0 + 32
