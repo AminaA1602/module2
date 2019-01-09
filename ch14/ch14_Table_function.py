@@ -6,6 +6,7 @@ Created on Wed Jan  9 09:43:02 2019
 """
 
 #------------------ Task 1: Create a table and insert data ---------------- # 
+
 import sqlite3 
 conn = sqlite3.connect('task1.db')
 c = conn.cursor()
@@ -48,12 +49,17 @@ for i in range(10):
 c.close()
 conn.close()
 
-#------------------ Task 3: Read and select data from database ---------------- # 
+#----------------- Task 3: Read and select data from database ---------------- # 
 
 def read_db_all():
     c.execute('SELECT * FROM stuffToBuild WHERE value=8 ')
 for row in c.fetchall():
     print(row)
-    
+
+def read_from_db2():
+    c.execute('SELECT * FROM stuffToBuild WHERE value =8 and unix > 154348733 and unix < 1534855741 ')
+
+    for row in c.fetchall():
+        print(row[0])
 
 
