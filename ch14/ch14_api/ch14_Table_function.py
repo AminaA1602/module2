@@ -31,9 +31,6 @@ import time
 import datetime
 import random 
 
-time.time()
-
-
 def dynamic_data_entry():
      unix = time.time()
      date=str(datetime.datetime.fromtimestamp(unix).strftime('%Y-%m-%d%H:%M:%S'))
@@ -49,7 +46,7 @@ for i in range(10):
 c.close()
 conn.close()
 
-#----------------- Task 3: Read and select data from database ---------------- # 
+#------------ Task 3: Read and select data from database ---------- # 
 
 def read_db_all():
     c.execute('SELECT * FROM stuffToBuild WHERE value=8 ')
@@ -61,5 +58,6 @@ def read_from_db2():
 
     for row in c.fetchall():
         print(row[0])
+
 
 
