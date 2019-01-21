@@ -4,10 +4,10 @@ Created on Wed Nov 28 2018
 
 @author: Amina 
 """
-############## Chapter 1 - Introduction to Python #################
+###### Chapter 1 - Introduction to Python ######
 
 
-#----------------- Simple operations with Python -----------------# 
+#------------ Simple operations with Python ---------------# 
 
 A = 2+3
 B = 2.9+3.2

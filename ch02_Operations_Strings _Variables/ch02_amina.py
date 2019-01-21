@@ -49,7 +49,7 @@ like = "painting"
 age_description ="my age is {} and I like {}.".format(age,like)
 print(age_description)
 
-# ---------------- String formatting: User input -------------- #
+# ------------- String formatting: User input ------------ #
 
 age = " "
 y=input(age)   

@@ -11,6 +11,7 @@ class Person:
      def __init__(self,name,age,gender):
          self.name = name
          self.age = age
+         self.gender = gender 
          if gender == 'm':
              self.isMale = True
          elif gender == 'f':
@@ -58,7 +59,7 @@ class Wizard(Person):
     def greetingFormal(self):
          print('Welcome, Mr ', self.name, end=' ')
          print('- you\’re a fine wizard!')
-    def spell(self):#----TASK 6---------
+    def spell(self):
         print('Expelliarmus!')
 
 

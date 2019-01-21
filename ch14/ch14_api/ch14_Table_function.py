@@ -5,7 +5,7 @@ Created on Wed Jan  9 09:43:02 2019
 @author: Skitt
 """
 
-#------------------ Task 1: Create a table and insert data ---------------- # 
+# --------- Task 1: Create a table and insert data ------------ # 
 
 import sqlite3 
 conn = sqlite3.connect('task1.db')

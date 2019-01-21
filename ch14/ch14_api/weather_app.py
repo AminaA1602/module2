@@ -5,6 +5,8 @@ Created on Thu Jan 10 14:34:54 2019
 @author: Skitt
 """
 
+# ------- Task 2 : Getting current weather information ------ # 
+
 import requests 
 
 endpoint = "http://api.openweathermap.org/data/2.5/weather"

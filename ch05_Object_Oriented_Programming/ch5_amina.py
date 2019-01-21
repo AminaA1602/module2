@@ -51,14 +51,15 @@ print(Amina.withdraw(100.0))
     
 print(Amina.balance)
 
-#----------------- Inheritence: Animal Exercise -----------------# 
+#------------ Inheritence: Animal Exercise -------------# 
 
+#--- > TIP: When you give a function for the parent class, give it a generic name. It will make it easier for the subclasses to inherit it. 
 class Animal():
         def eat(self):
             print('yum')
     
 class Dog(Animal):
-        def bark(self):
+        def bark(self): 
             print('Woof!')
 
 class Cat(Animal):
