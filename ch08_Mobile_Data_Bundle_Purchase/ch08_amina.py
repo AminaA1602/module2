@@ -5,7 +5,6 @@ Created on Tue Dec 11 13:59:39 2018
 @author: Skitt
 """
 
-#This is an empty function
 
 def DataBundlePurchase(truePasscode, balance):
     if passwordCheck(truePasscode):
